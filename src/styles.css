@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.espacio {
+    width: 800px;
+}
+
+.recluta {
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(182, 182, 182);
+}
+
+.seccionR {
+    margin-top: 1%;
+}
+
+.btn {
+    margin-top: 25px;
+    background-color: #204D84;
+}
+
+.colorclar {
+    background-color: #204d8434;
+    margin-left: -15px;
+    margin-right: -15px;
+    color: #204D84;
+}
+
+.colorclarPrincipal {
+    background-color: #204D84;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyLogin {
+    height: 100vh;
+    display: flow-root;
+        align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin-top: 150px;
+    box-shadow: 2px 2px 5px rgb(182, 182, 182);
+    width: 400px;
+    height: 500px;
+  
+
+}
+
+.bodyCrear{
+    height: 100vh;
+    display: flow-root;
+        align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px rgb(182, 182, 182);
+    width: 400px;
+    height: 700px;
+}
+
+.login {
+    
+    padding: 20px;
+    border-radius: 1px;
+    background: #ffffff;
+    margin-top: 50px;
+
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
